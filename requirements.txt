@@ -1,0 +1,8 @@
+faster-whisper
+sounddevice
+soundfile
+numpy
+scipy
+python-dotenv
+customtkinter
+pynput

@@ -1,0 +1,53 @@
+# Local Python environments
+.venv*
+.venv*/
+venv/
+env/
+
+# Local config
+.env
+*.env
+!*.env.example
+
+# Python/cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Runtime output
+output/*
+!output/.gitkeep
+
+# Local model files and ML caches
+models/*
+!models/.gitkeep
+.cache/
+hf_cache/
+models--*/
+*.onnx
+*.gguf
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.model
+*.tflite
+
+# Audio/logs
+*.wav
+*.mp3
+*.flac
+*.ogg
+*.log
+*.sqlite
+*.db
+
+# OS/editor noise
+Thumbs.db
+Desktop.ini
+.DS_Store
+.idea/
+.vscode/
